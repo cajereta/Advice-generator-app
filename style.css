@@ -63,11 +63,23 @@ fieldset{
     font-size: 11px;
     text-align: center;
 }
-.dice-container:hover:focus{
+.dice-container:hover{
    scale: 1.2;
    box-shadow: 0 0 1em 0.1em hsl(150, 100%, 66%);
    animation: ease;
    transition: 0.2s;
+}
+.dice-container:focus{
+   scale: 1.2;
+   box-shadow: 0 0 1em 0.1em hsl(150, 100%, 66%);
+   animation: ease;
+   transition: 0.2s;
+}
+.dice-container:active{
+   scale: 1.2;
+   box-shadow: 0 0 1em 0.1em hsl(150, 100%, 66%);
+   animation: ease;
+   transition: 0.5s;
 }
 
 
